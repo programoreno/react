@@ -1,5 +1,6 @@
 import './stile.css';
 import Link from 'next/link';
+import Talleres from '@/components/Talleres';
 
 export default function Home() {
     return (
@@ -7,6 +8,8 @@ export default function Home() {
             Home
             <br />
             <Link href="/">Ir Home</Link>
+            <Talleres/>
+
         </div>
     );
 }
